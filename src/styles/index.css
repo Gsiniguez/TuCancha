@@ -1,0 +1,25 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+
+.btn{
+    @apply font-bold; 
+    @apply text-center;
+    @apply text-indigo-400;
+    @apply shadow-md;
+    @apply border;
+    @apply border-indigo-400;
+    @apply rounded-lg;
+}
+
+.btn:hover{
+    @apply bg-indigo-100;
+}
+
+.btn:active{
+    @apply shadow-none;
+    @apply transform;
+}
